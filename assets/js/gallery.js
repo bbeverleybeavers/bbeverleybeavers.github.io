@@ -1,0 +1,1 @@
+$=window.jQuery,$(document).ready((function(e){e("div[data-gallery]").each((function(){console.log("found gallery"),e(this).magnificPopup({delegate:"a",type:"image",gallery:{enabled:!0}})}))}));
